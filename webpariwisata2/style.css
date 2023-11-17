@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  
+}
+
+header {
+    background-color: #031d2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-image: url('bromo1.webp');
+    background-size: cover;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#destination-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#destination-table th, #destination-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#destination-table th {
+    background-color: #3498db;
+    color: white;
+}
